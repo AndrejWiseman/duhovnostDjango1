@@ -27,8 +27,20 @@
 
     {% include 'navbar.html' %}
 
-    {% block content %}
-    {% endblock %}
+    <div class="container-fluid" style="max-width:540px;margin:15px auto;">
+
+        <div class="card">
+          <div class="card-body">
+                {% block content %}
+                {% endblock %}
+          </div>
+        </div>
+
+
+
+    </div>
+
+
 
 
 
